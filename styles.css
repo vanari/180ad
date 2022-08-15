@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+    font-family: 'Aboreto', cursive;
+}
+
+@keyframes vanish {
+    from {margin-top: -20px;}
+    to {margin-top: -200px;}
+}
+
+.vanished {
+    margin-top: -10.5%;
+}
+
+header {
+    transition: all 2s ease;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -10px 5%;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    background-color: maroon;
+    color: goldenrod;
+    font-size: xx-large;
+    position: fixed;
+    border-bottom: solid goldenrod 10px;
+}
+
+.logo {
+    font-weight: 600;
+    width: 40%;
+    margin-right: -20%;
+}
+
+.motto {
+    width: 7em;
+    margin-right: 1.4em;
+    margin-left: 0em; 
+    text-align: center;
+}
+
+section {
+    height: 500px;
+    background-color: aliceblue;
+    border: solid black 5px;
+}
+
+.hero {
+    height: 1000px;
+}
+
+#svg {
+    width: fit-content;
+}
+
+.map {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 170, 0);
+}
+
+.province {
+    fill: maroon;
+}
+
+.province:hover {
+    fill: red;
+}
+
+.selected {
+    transition: all 2s ease;
+    /*transform: scale(200%) translateX(0%);*/
+    fill: pink;
+    stroke: red;
+    stroke-width: .3%;
+}
