@@ -4,6 +4,9 @@
     font-family: 'Aboreto', cursive;
 }
 
+body {
+    margin: 0;
+}
 
 @keyframes vanish {
     from {margin-top: -20px;}
