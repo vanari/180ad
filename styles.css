@@ -4,6 +4,7 @@
     font-family: 'Aboreto', cursive;
 }
 
+
 @keyframes vanish {
     from {margin-top: -20px;}
     to {margin-top: -200px;}
@@ -30,6 +31,7 @@ header {
     font-size: xx-large;
     position: fixed;
     border-bottom: solid goldenrod 10px;
+    z-index: 5;
 }
 
 .logo {
@@ -52,7 +54,7 @@ section {
 }
 
 .hero {
-    height: 1000px;
+    height: 1200px;
 }
 
 #svg {
@@ -81,4 +83,10 @@ body {
     fill: pink;
     stroke: red;
     stroke-width: .3%;
+}
+
+.emperor {
+    position: relative;
+    bottom: -40%;
+    height: 50%;
 }
