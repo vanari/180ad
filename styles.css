@@ -4,9 +4,6 @@
     font-family: 'Aboreto', cursive;
 }
 
-body {
-    margin: 0;
-}
 
 @keyframes vanish {
     from {margin-top: -20px;}
@@ -35,6 +32,7 @@ header {
     position: fixed;
     border-bottom: solid goldenrod 10px;
     z-index: 5;
+    width: 100%;
 }
 
 .logo {
@@ -90,6 +88,21 @@ body {
 
 .emperor {
     position: relative;
-    bottom: -40%;
+    left: 20%;
+    top: 45%;
     height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.emperor img {
+    height: 100%;
+}
+
+.emperor h3 {
+    position: relative;
+    display: block;
+    color: darkgoldenrod;
+    font-size: x-large;
+    bottom: 10%;
 }

@@ -25,3 +25,9 @@ header.onclick = (e) => {
         header.classList.remove("vanished");
     }
 }
+
+// emperor prallax
+
+window.addEventListener('scroll', (e) => {
+    
+})
