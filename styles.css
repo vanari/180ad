@@ -55,7 +55,7 @@ section {
 }
 
 .hero {
-    height: 1200px;
+    height: 30cm;
 }
 
 #svg {
@@ -105,4 +105,14 @@ body {
     color: darkgoldenrod;
     font-size: x-large;
     bottom: 10%;
+}
+
+.quote {
+    position: relative;
+    width: 35%;
+    text-align: center;
+    left: 50%;
+
+    color: goldenrod;
+    font-size: xx-large;
 }
