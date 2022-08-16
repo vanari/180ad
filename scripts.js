@@ -29,5 +29,9 @@ header.onclick = (e) => {
 // emperor prallax
 
 window.addEventListener('scroll', (e) => {
-    
+    const emperor = document.querySelector('.emperor');
+
+    let dist = window.scrollY * -1;
+
+    emperor.style.transform = 'translate3d('+dist+'px, 0px, 0px)'
 })
