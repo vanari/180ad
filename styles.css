@@ -131,3 +131,32 @@ body {
 .svgmap {
     width: 80vw;
 }
+
+.description {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar {
+    position: relative;
+    justify-content: center;
+    display: inline-block;
+    border: solid 20px gold;
+    border-radius: 20px;
+    left: 6vw;
+}
+
+.avatar img {
+    max-height: 20vh;
+    max-width: 30vw;
+}
+
+.elaboration {
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 35vw;
+    font-size: x-large;
+    left: 25vw;
+}
