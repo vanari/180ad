@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     font-family: 'Aboreto', cursive;
 }
-
 
 @keyframes vanish {
     from {margin-top: -20px;}
@@ -46,6 +50,11 @@ header {
     margin-right: 1.4em;
     margin-left: 0em; 
     text-align: center;
+    font-size: 2vh;
+}
+
+.headline {
+    font-size: 3vh;
 }
 
 section {
@@ -63,6 +72,8 @@ section {
 }
 
 .map {
+    display: flex;
+    justify-content: center;
     height: 100%;
 }
 
@@ -115,4 +126,8 @@ body {
 
     color: goldenrod;
     font-size: xx-large;
+}
+
+.svgmap {
+    width: 80vw;
 }
