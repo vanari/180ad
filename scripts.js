@@ -32,7 +32,7 @@ window.addEventListener('scroll', (e) => {
     const emperor = document.querySelector('.emperor');
     const quote = document.querySelector('.quote');
 
-    let dist = window.scrollY * -1;
+    let dist = window.pageYOffset * -1;
 
     emperor.style.transform = 'translate3d('+dist+'px, 0px, 0px)'
     quote.style.transform = 'translate3d('+(-dist)+'px, 0px, 0px)'
