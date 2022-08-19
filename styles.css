@@ -59,8 +59,6 @@ header {
 
 section {
     height: 500px;
-    background-color: aliceblue;
-    border: solid black 5px;
 }
 
 .hero {
@@ -78,7 +76,7 @@ section {
 }
 
 body {
-    background-color: rgb(255, 170, 0);
+    background-color: #5F1E6F;
 }
 
 .province {
@@ -136,13 +134,14 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    color: darkgoldenrod;
 }
 
 .avatar {
     position: relative;
     justify-content: center;
     display: inline-block;
-    border: solid 20px gold;
+    border: solid 20px darkgoldenrod;
     border-radius: 20px;
     left: 6vw;
 }
